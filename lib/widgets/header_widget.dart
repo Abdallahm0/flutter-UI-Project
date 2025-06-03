@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../core/colors_manager.dart';
 
 class HeaderWidget extends StatefulWidget {
-
   const HeaderWidget({super.key});
 
   @override
@@ -18,31 +17,32 @@ class _HeaderWidgetState extends State<HeaderWidget> {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         IconButton(
-            onPressed: (){
+            onPressed: () {
               Navigator.pop(context);
             },
-            icon: Icon(Icons.arrow_back_ios,size: 24,color: Colors.black,)),
+            icon: Icon(
+              Icons.arrow_back_ios,
+              size: 24,
+              color: Colors.black,
+            )),
         Text(
           "Details",
           style: TextStyle(
               fontSize: 18,
               fontWeight: FontWeight.w600,
-              color: ColorsManager.blackTextColor
-          ),
+              color: ColorsManager.blackTextColor),
         ),
         IconButton(
-            onPressed: (){
+            onPressed: () {
               isFav = !isFav;
-              setState(() {
-
-              });
+              setState(() {});
             },
-            icon: Icon(isFav == false ? Icons.favorite_border : Icons.favorite,size: 24,color: Colors.black,)),
-
-
-
+            icon: Icon(
+              isFav == false ? Icons.favorite_border : Icons.favorite,
+              size: 24,
+              color: Colors.black,
+            )),
       ],
     );
-
   }
 }
