@@ -1,16 +1,16 @@
-# fluttermaddi62ecommerce
+# Flutter UI 💡
+> Work in Progress ⏳
 
-A new Flutter project.
+This project is part of my Flutter diploma coursework. It focuses on building responsive and visually appealing UI components using Flutter.
 
-## Getting Started
+## 🔨 Features (Planned or Completed)
+- Responsive layout
+- Custom widgets
+- Navigation bar 
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## 🚧 Status
+Currently in progress. Actively developing UI components and refining the design.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📌 Notes
+This is a learning project. Feedback is welcome!
